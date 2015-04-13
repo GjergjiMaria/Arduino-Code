@@ -18,3 +18,8 @@ sudo apt-get install python-pip python2.7-dev -y
 sudo easy_install ino
 sudo npm install serialport-js
 sudo npm install socket.io 
+# for camera
+sudo aptitude install crtmpserver -y 
+sudo mkdir /var/log/crtmpserver
+# manually edit files to say
+#validatehandshake = false, keyframeSeek = false, seek granularity = 0 1     clientsideBuffer = 30  
